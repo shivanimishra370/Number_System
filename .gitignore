@@ -6,7 +6,6 @@ public class numbergame {
     int secretNumber;
 
             secretNumber = (int) (Math.random() * 101 + 1);           
-
             Scanner keyboard = new Scanner(System.in);
 
             int guess;
